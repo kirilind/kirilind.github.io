@@ -5,7 +5,7 @@
 ### IndieWeb ###
 
 + [Indieweb](http://indiewebcamp.com/)
-+ [Indiewebify](http://indiewebcamp.com/)
++ [Indiewebify](http://indiewebify.me)
 
 ### Semantic Web ###
 
