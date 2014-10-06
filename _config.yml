@@ -1,0 +1,57 @@
+# Site settings
+title: Aul
+description: "Aul, -i, zool., (Estonian for) <em>Clangula hyemalis</em>, a medium-sized migratory sea duck wintering along coastal northern Europe."
+baseurl: "/kirilind"
+url: ""
+
+# Author info
+author:
+  name: Auli Kütt
+  email: kiri@haldjas.org
+  github: kirilind
+  twitter: kirilind
+  facebook: haldjas
+  linkedin: aulikytt
+  bio: "Aul, -i, zool., (Estonian for) <em>Clangula hyemalis</em>, a medium-sized migratory sea duck wintering along coastal northern Europe."
+  email_md5: 353b5dd542a54df77123a023840774eb
+
+#
+paginate: 3 # pagination based on number of posts
+paginate_path: "page:num"
+
+#
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+encoding: utf-8
+
+# Content types
+collections:
+  pages:
+    output: true
+  articles:
+    output: true
+
+
+# Default layouts
+defaults:
+-
+    scope:
+      path: ""
+      type: "page"
+    values:
+      layout: "page"
+
+-
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
+
+#temp 
+BASE_PATH: "/kirilind"

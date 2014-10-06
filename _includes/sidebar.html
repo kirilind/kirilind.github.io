@@ -1,0 +1,29 @@
+<!-- sidebar -->
+
+
+<div class="column col-sm-3" id="sidebar">
+<header class="sidebar-header" role="banner">
+    <a href="{{ site.baseurl }}/">
+        <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
+    </a>
+<!--    <h3 class="title">
+        <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </h3> -->
+</header>
+
+
+
+<!--    <a class="logo" href="#">B</a> -->
+{% include nav.html %}
+
+{% include social-icons.html %}
+
+{% comment %}
+    <ul class="nav hidden-xs" id="sidebar-footer">
+        <li>
+          <a href="http://www.bootply.com"><h3>Basis</h3>Made with <i class="glyphicon glyphicon-heart-empty"></i> by Bootply</a>
+        </li>
+    </ul>
+{% endcomment %}
+</div>
+<!-- /sidebar -->

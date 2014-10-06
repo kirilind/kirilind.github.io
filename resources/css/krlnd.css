@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+/* basis & dbyll overwrites */
+h1, h2, h3, h4 {font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+h1,.h1{font-size:28px}h2,.h2{font-size:22px}h3,.h3{font-size:18px}h4,.h4{font-size:14px}
+
+#sidebar a.btn-default {color: #333; background-color: #FFF;}
+
+#contact-list {margin-top:2em;}
+
+#sidebar .nav {
+  text-align:center;
+  xmargin:0 auto;
+  font-size:18px;
+}
+#sidebar a.page-link:hover {background-color:rgba(255,255,255,0.4);color:#ffffff;text-shadow:none;}
+
+.box {background-image:url('../img/meelespea.jpg'); background-size:contain;}
+
+/* image size override */
+#main .img-circle {
+  height:150px;
+  width:150px;
+}
+
+.author {font-size:0.7em;}
+.author h4 {padding-top:0;margin-top:0;font-size:1em;}

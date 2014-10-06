@@ -1,91 +1,9 @@
-<!doctype html>
-<html>
-<head>
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
- <link rel="stylesheet" href="style.css" type='text/css' />
- <link rel="openid.server" href="https://indieauth.com/openid" />
- <link rel="openid.delegate" href="http://auli.haldjas.org/" />
- <title>auli</title>
-</head>
-<body vocab="http://schema.org/">
-<div typeof="Person">
- <div id="me" class="h-card">
-   <h1 property="name" class="p-name">Auli</h1>
-   <img class="u-photo" property="image" src="https://s.gravatar.com/avatar/353b5dd542a54df77123a023840774eb?s=80" />
-   <p property="description" class="p-note">Aul, -i, zool., (Estonian for) <em>Clangula hyemalis</em>, a medium-sized migratory sea duck wintering along coastal northern Europe. 
-   <ul>
-   <li><a property="sameAs" rel="me" class="u-url url" href="https://github.com/kirilind">github</a></li>
-   <li><a property="sameAs" rel="me" class="u-url url" href="https://twitter.com/kirilind">twitter</a></li>
-   <li><a property="sameAs" rel="me" class="u-url url" href="https://facebook.com/haldjas">facebook</a></li>
-   <li><a property="sameAs" rel="me" class="u-url url" href="https://linkedin.com/aulikytt">linkedin</a></li>
-   </ul>
- </div>
-<div id="people">
- <h2>other human beings</h2>
-   <ul>
-   <li><a property="knows" href="http://samsemilio.github.io"><span about="http://samsemilio.github.io" property="name">Samuel Andert</span></a></li>
-   <li><a property="knows" href="http://elf-pavlik.wwelves.org"><span about="http://elf-pavlik.wwelves.org" property="name">elf Pavlik</span></a></li>
-   <li><a property="knows" href="http://profile.daha.co.uk"><span about="http://profile.daha.co.uk" property="name">Daniel Harris</span></a></li>
-   <li><a property="knows" href="http://alvaro.onclic.es"><span about="http://alvaro.onclic.es" property="name">Álvaro Saco</span></a></li>
-   <li><a property="knows" href="http://y.chn.io"><span about="http://y.chn.io" property="name">Jon Richter</span></a></li>
-   <li><a property="knows" href="http://box.projectdanube.org"><span about="http://box.projectdanube.org" property="name">Markus Sabadello</span></a></li>
-   <li><a property="knows" href="http://profile.maxlath.eu"><span about="http://profile.maxlath.eu" property="name">Maxime Lathuilière</span></a></li>
-   <li><a property="knows" href="http://jaensen.github.io"><span about="http://jaensen.github.io" property="name">Daniel Janz</span></a></li>
-   </ul>
-</div>
+---
+layout: default
+tagline:
+---
 
-<div id="wishlist">
-  <h2>wishlist</h2>
-  <h3>seeks</h3>
-<ul><li rel="seeks"><div typeof="Demand" about="/requests/256">
-      <div rel="itemOffered">
-        <div typeof="Product http://www.productontology.org/id/Smartphone" about="http://fairphone.com">
-          <a href="http://fairphone.com">
-            <span property="name">Fairphone</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    </li>
-     <li rel="seeks">
-    <div typeof="Demand" about="/requests/176">
-      <div rel="itemOffered">
-        <div typeof="Product http://purl.org/tio/ns#TrainService" about="http://www.interrail.eu">
-          <a href="http://www.interrail.eu">
-            <span property="name">InterRail</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    </li>
+{% include posts-list.html %}
 
-    </ul>  
-</div>
 
-  <div id="offers">
-    <h3>offers</h3>
-    <ul>
-      <li rel="makesOffer">
-      <div typeof="Offer" about="/offers/367">
-        <div rel="itemOffered">
-          <div typeof="Product http://www.productontology.org/id/Photography">
-            <span property="name">Photography</span>
-          </div>
-        </div>
-      </div>
-      </li>
-          <li rel="makesOffer">
-      <div typeof="Offer" about="/offers/439">
-        <div rel="itemOffered">
-          <div typeof="Product http://www.productontology.org/id/Drupal">
-            <span property="name">Drupal</span>
-          </div>
-        </div>
-      </div>
-      </li>
-
-    </ul>
-  </div><!-- // div offers -->
-</div><!-- // div person -->
-</body>
-</html>
+{% include pager.html %}
