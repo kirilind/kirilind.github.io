@@ -1,7 +1,7 @@
 # Site settings
 title: Aul
 description: "Aul, -i, zool., (Estonian for) <em>Clangula hyemalis</em>, a medium-sized migratory sea duck wintering along coastal northern Europe."
-baseurl: "/kirilind"
+baseurl: "http://auli.haldjas.org"
 url: ""
 
 # Author info
