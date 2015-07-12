@@ -123,13 +123,17 @@
         </a>
       </section>
 
-      <section class="col-sm-2 author p-author h-card">
+      <section class="col-sm-6 author p-author h-card">
+        <div class="col-sm-3">
         <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}" rel="author" class="img-rounded author-image p-author u-photo" />
-      </section>
+      </div>
+      <!--</section>
 
-      <section class="col-sm-4">
-        <h4 class="section-title author-name p-author h-card"><a rel="author" href="{{site.url}}">{{site.author.name}}</a></h4>
+      <section class="col-sm-4">-->
+        <div class="col-sm-9">
+        <h4 class="section-title author-name"><a rel="author" href="{{site.url}}">{{site.author.name}}</a></h4>
         <p class="author-bio p-note">{{site.author.bio}}</p>
+      </div>
       </section>
     </div>
 
