@@ -6,6 +6,7 @@
 </div>
     
 <article class="h-entry">
+  <time class="dt-published" datetime="{{ page.date }}">
      <span class="post-date">
        {% assign d = page.date | date: "%d" | plus:'0' %}
        {{ page.date | date: "%B" }} 
@@ -17,6 +18,7 @@
        {% endcase %}
        {{ page.date | date: "%Y" }}
      </span>
+  </time>
       <div class="article_body e-content">
       {{ content }}
       </div>
@@ -96,8 +98,8 @@
         <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}" class="img-rounded author-image" />
       </section>
 
-      <section class="col-sm-4 author p-author h-card">
-        <h4 class="section-title author-name p-name">{{site.author.name}}</h4>
+      <section class="col-sm-4  h-card">
+        <h4 class="section-title author-name  p-author">{{site.author.name}}</h4>
         <p class="author-bio p-note">{{site.author.bio}}</p>
       </section>
     </div>
