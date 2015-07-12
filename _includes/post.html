@@ -5,7 +5,7 @@
   <h1  class="p-name">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
     
-<article class="h-entry">
+<article>
   <time class="dt-published" datetime="{{ page.date }}">
      <span class="post-date">
        {% assign d = page.date | date: "%d" | plus:'0' %}
@@ -99,7 +99,7 @@
       </section>
 
       <section class="col-sm-4  h-card">
-        <h4 class="section-title author-name  p-author">{{site.author.name}}</h4>
+        <h4 class="section-title author-name p-author" rel="author">{{site.author.name}}</h4>
         <p class="author-bio p-note">{{site.author.bio}}</p>
       </section>
     </div>
