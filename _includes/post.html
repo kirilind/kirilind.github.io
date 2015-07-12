@@ -44,7 +44,7 @@
           <div class="col-md-6 col-sm-12">
             <h4>Also published in</h4>
             {% for copy in page.copies %}
-              <a href="{{copy.url}}">{{copy.title}}</a><br/>
+              <a rel="syndication" class="u-syndication" href="{{copy.url}}">{{copy.title}}</a><br/>
             {% endfor %}
           </div>
           
@@ -124,7 +124,7 @@
       </section>
 
       <section class="col-sm-2 author">
-        <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}" rel="author" class="img-rounded author-image u-photo" />
+        <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}" rel="author" class="img-rounded author-image p-author u-photo" />
       </section>
 
       <section class="col-sm-4">
