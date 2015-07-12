@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Summon the Coatsy: volunteering, garbage and guerilla marketing"
+title: Summon the Coatsy
+tagline: volunteering, garbage and guerilla marketing
 permalink: /articles/2012/summon-the-coatsy
 date: 2012-08-23 12:00
 lang: en
@@ -48,7 +49,7 @@ I contacted a rental agency who was willing to give me a great deal on a rental,
 
 ###What exactly did you do with that water tank to make it work?
 
-Through trial and error, I found the massive weight of 100 liters created enough pressure through the tap at the bottom. The pressure washer simply intakes water into a pump, but it requires a small amount of pressure to convert. About 70-100PSI is converted into approx. 2400PSI. Good deal.<
+Through trial and error, I found the massive weight of 100 liters created enough pressure through the tap at the bottom. The pressure washer simply intakes water into a pump, but it requires a small amount of pressure to convert. About 70-100PSI is converted into approx. 2400PSI. Good deal.
 
 ###Am I getting it wrong or you actually used rain water...? 
 
@@ -60,7 +61,7 @@ I’m a freelance creative. I've had so many jobs it’s nuts. I’m 31, and I�
 
 What do I do? I live around the poverty line, surrounding myself with industrial refuse and building material, my head filled with tricks and strategies any ad studio would pay me well for, and I give those ideas to the people doing more good than not in this world.
 
-###What do you think makes Canadians contribute to good causes
+###What do you think makes Canadians contribute to good causes?
 
 I’d like to think it’s a human thing. Not an easy question to answer, here’s my perspective: we’re a simple country, so simple that obvious rights and wrongs seem pretty obvious. Also, another thing, concerning the act of sharing, I believe that there is for the most part, an inability to truly enjoy something without sharing it. Let's put it this way, if we’re all partying, and someone gets sick or hurt for what ever reason, it's kinda hard to keep partying with someone in the dumps like that. You try to help them out.
 
@@ -88,9 +89,11 @@ The act of cleaning does nothing but move garbage out of the way. When you go ho
 
 The second it’s not, I’m moving back into the woods.
 
+{% comment %}
 <hr/>
 
 Also published in [Let's Do It World news](http://www.letsdoitworld.org/news/summon-coatsy-volunteering-garbage-and-guerilla-marketing)
 
 In Estonian / eesti keeles 
 [Kutsuge Coatsy: prügi, sürdgrafiti ja geriljaturundus (Bioneer.ee, 16.06.2012)]({{ site.baseurl }}/artiklid/kutsuge-coatsy), ilmunud [Bioneeris 16.06.2012](http://www.bioneer.ee/bioneer/arvamus/aid-13828/Kutsuge-Coatsy%3A-pr%C3%BCgi-s%C3%BCrdgrafiti-ja-geriljaturundus)
+{% endcomment %}

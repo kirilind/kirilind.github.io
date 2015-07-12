@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Shamengo – giving voice to people who care"
+title: Shamengo
+tagline: giving voice to people who care
 permalink: /articles/2011/shamengo-giving-voice
 date:  2011-11-04 08:00
 lang: en
@@ -8,6 +9,9 @@ categories: articles
 tags: interview
 image: http://letsdoitworld.org/system/files/uploads/catherine_berthillier.jpg
 description: "They are people who have come upon incredible ideas; people who do something for their community and environment. They might have started small and found a lot of resistance, but kept going and turned out into something big."
+copies:
+ - title: Let's Do It World news
+   url: http://www.letsdoitworld.org/news/shamengo-giving-voice-to-people-who-care
 ---
 
 
@@ -62,7 +66,7 @@ In  the end, it is up to every single person how to lead their life and  what ch
 
 "Actually  it’s a very buddhist concept," says Catherine thoughtfully. "To take  care of yourself, to create with ethics, to preserve the planet, and to  help the others. And if you devote your time to do this kind of things, I  guess you can be a happy person."
 
-This is the real goal of Shamengo, because the tagline reads: **inspire your life**
+This is the real goal of Shamengo, because the tagline reads: **inspire your life.**
 
 http://youtu.be/Bjp6znnJvv0
 
@@ -80,6 +84,8 @@ http://youtu.be/Bjp6znnJvv0
 
 *Text and photos by Auli Kütt. Videos by Shamengo / Kaia productions.*
 
+{% comment %}
 <hr/>
 
 Also published in [Let's Do It World news](http://www.letsdoitworld.org/news/shamengo-giving-voice-to-people-who-care)
+{% endcomment %}
