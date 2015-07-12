@@ -22,9 +22,24 @@
       <div class="article_body e-content">
       {{ content }}
       </div>
-      <div>
+      <hr />
+      
+      <div class="row">
+      <div class="col-md-6 col-sm-12">
         <a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" class="u-url">Permalink</a>
       </div>
+      
+      {% if page.copies %}    
+          <div class="col-md-6 col-sm-12">
+            <h4>Also published in</h4>
+            {% for copy in page.copies %}
+              <a href="{{copy.url}}">{{copy.title}}</a><br/>
+            {% endfor %}
+          </div>
+          
+      {% endif %}
+      </div>
+      <hr />
 
         {% unless page.categories == empty %}
         <ul class="tag_box list-unstyled list-inline p-category">
