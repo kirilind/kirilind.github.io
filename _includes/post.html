@@ -22,6 +22,9 @@
       <div class="article_body e-content">
       {{ content }}
       </div>
+      <div>
+        <a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" class="u-url">Permalink</a>
+      </div>
 
         {% unless page.categories == empty %}
         <ul class="tag_box list-unstyled list-inline p-category">
@@ -98,8 +101,8 @@
         <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}" class="img-rounded author-image p-author u-photo" />
       </section>
 
-      <section class="col-sm-4 h-card">
-        <h4 class="section-title author-name p-author"><a rel="author" href="#">{{site.author.name}}</a></h4>
+      <section class="col-sm-4">
+        <h4 class="section-title author-name p-author h-card"><a rel="author" href="{{site.url}}">{{site.author.name}}</a></h4>
         <p class="author-bio p-note">{{site.author.bio}}</p>
       </section>
     </div>
