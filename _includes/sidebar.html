@@ -3,17 +3,20 @@
 
 <div class="column col-sm-3" id="sidebar">
 <header class="sidebar-header" role="banner">
-    <a href="{{ site.baseurl }}/">
-        <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
+    <a href="{{ site.baseurl }}/" class="u-url">
+        <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle u-photo" />
+        <span style="visibility: hidden;" class="p-name"><br/>Auli Kütt</span>
     </a>
+{% comment %}
 <!--    <h3 class="title">
         <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </h3> -->
+    </h3> -->{% endcomment %}
 </header>
 
 
 
-<!--    <a class="logo" href="#">B</a> -->
+{% comment %}<!--    <a class="logo" href="#">B</a> -->{% endcomment %}
+
 {% include nav.html %}
 
 {% include social-icons.html %}
