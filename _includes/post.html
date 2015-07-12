@@ -1,8 +1,11 @@
+<div class="h-entry">
+
+
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  <h1  class="p-name">{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
     
-<article>
+<article class="h-entry">
      <span class="post-date">
        {% assign d = page.date | date: "%d" | plus:'0' %}
        {{ page.date | date: "%B" }} 
@@ -14,12 +17,12 @@
        {% endcase %}
        {{ page.date | date: "%Y" }}
      </span>
-      <div class="article_body">
+      <div class="article_body e-content">
       {{ content }}
       </div>
 
         {% unless page.categories == empty %}
-        <ul class="tag_box list-unstyled list-inline">
+        <ul class="tag_box list-unstyled list-inline p-category">
           <li><i class="fa fa-folder-open"></i></li>
           {% assign categories_list = page.categories %}
           {% if categories_list.first[0] == null %}
@@ -40,7 +43,7 @@
         {% endunless %}  
 
         {% unless page.tags == empty %}
-        <ul class="list-inline">
+        <ul class="list-inline p-category">
           <li><i class="fa fa-tags"></i></li>
           {% assign tags_list = page.tags %}
           {% if tags_list.first[0] == null %}
@@ -93,7 +96,7 @@
         <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}" class="img-rounded author-image" />
       </section>
 
-      <section class="col-sm-4 author">
+      <section class="col-sm-4 author p-author h-card">
         <h4 class="section-title author-name p-name">{{site.author.name}}</h4>
         <p class="author-bio p-note">{{site.author.bio}}</p>
       </section>
@@ -116,4 +119,6 @@
 
         <!-- <hr> -->
 </article>
+
+</div>
 <div class="clearfix"></div>

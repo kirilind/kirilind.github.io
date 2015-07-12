@@ -7,13 +7,14 @@
 </div>
 
 {% for post in paginator.posts %}
+<article class="h-entry">
 <div class="row">    
   <div class="{% if post.image %}col-sm-9{% else %}col-sm-12{% endif %}">
-    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    <h3 class="p-name"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     {% comment %} <h4><span class="label label-default">searchenginewatch.com</span></h4><h4> {% endcomment %}
     <small class="text-muted">{% include post-date.html %} • <a href="{{ site.baseurl }}{{ post.url }}" class="text-muted">Read More</a></small>
     </h4>
-    {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+    {% if post.description %}<p class="p-summary">{{ post.description }}</p>{% endif %}
   </div>
 {% if post.image %}
   <div class="col-sm-3">
@@ -24,5 +25,6 @@
 <div class="row divider">    
    <div class="col-sm-12"><hr></div>
 </div>
+</article>
 {% endfor %}
 
